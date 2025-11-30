@@ -19,5 +19,20 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 - Twitter: [@moonphase_xyz](https://x.com/moonphase_xyz)
 - Telegram: [t.me/moonphase_xyz](https://t.me/moonphase_xyz)
 
+## 🛠️ Development Status
+
+### ✅ Currently Live:
+- Project Documentation
+- Frontend Interface  
+- Community Building
+
+### 🔄 Coming Soon:
+- Smart Contracts (Post-Token Launch)
+- Staking Mechanism
+- Reward System
+
+## 🤝 Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 ## 📄 License
 MIT License - see LICENSE file
