@@ -1,4 +1,4 @@
-# Moonphase Protocol Whitepaper V2.1
+# Moonphase Protocol Whitepaper V2.1  
 *The First Lunar Cycle-Inspired Blockchain Ecosystem*
 
 ![Version](https://img.shields.io/badge/version-2.1-blue)
@@ -24,13 +24,13 @@
 
 ## 1. Abstract & Executive Summary
 
-Moonphase Protocol (MPCT) introduces a revolutionary blockchain ecosystem where celestial mechanics meet decentralized finance. Deployed on Solana with a fixed supply of 2.1 billion MPCT tokens, we pioneer **Proof-of-Contribution and Stake (PoCS)**, a consensus mechanism harmonizing capital commitment with active participation.
+Moonphase Protocol (MPCT) introduces a revolutionary blockchain ecosystem where celestial mechanics meet decentralized finance. Deployed on Solana with a fixed supply of 2.1 billion MPCT tokens, we pioneer **Proof-of-Contribution and Stake (PoCS)** - a consensus mechanism harmonizing capital commitment with active participation.
 
-**Core Innovations:**
-- 🌙 **Lunar Economics:** Dynamic rewards mirroring moon phases
-- 🔄 **Three-State Token Progression:** Locked → Restricted → Transferable
-- 🛡️ **Advanced Security Suite:** Slashing, Sybil resistance, MEV protection, time-lock contracts
-- 💸 **Sustainable Tokenomics:** Deflationary burns, dynamic fee decay, and halving emissions
+**Core Innovations:**  
+- 🌙 **Lunar Economics:** Dynamic rewards mirroring moon phases  
+- 🔄 **Three-State Token Progression:** Locked → Restricted → Transferable  
+- 🛡️ **Advanced Security Suite:** Slashing, Sybil resistance, MEV protection  
+- 💸 **Sustainable Tokenomics:** Deflationary burns, dynamic fee decay  
 
 **Target Market:** Retail investors, institutional validators, DeFi enthusiasts, and blockchain developers seeking sustainable yield and community-driven governance.
 
@@ -42,7 +42,7 @@ The moon's consistent 29.5-day cycle represents nature's perfect economic model:
 
 ### Guiding Principles:
 - **Cyclical Prosperity:** Natural expansion/contraction cycles
-- **Progressive Empowerment:** Gradual privilege escalation
+- **Progressive Empowerment:** Gradual privilege escalation  
 - **Community Celestial:** Stake-based governance alignment
 - **Sustainable Orbit:** Long-term economic equilibrium
 
@@ -54,7 +54,7 @@ The moon's consistent 29.5-day cycle represents nature's perfect economic model:
 
 ### 3.1 Economic Instability in Current Ecosystems
 - Volatile tokenomics favoring short-term speculation
-- Misaligned incentives between early adopters and long-term participants
+- Misaligned incentives between early adopters and long-term participants  
 - Concentrated validator power leading to centralization
 
 ### 3.2 Engagement & Accessibility Challenges
@@ -72,6 +72,7 @@ The moon's consistent 29.5-day cycle represents nature's perfect economic model:
 ## 4. Moonphase Protocol Solution
 
 ### 4.1 Proof-of-Contribution and Stake (PoCS)
+
 ```solidity
 struct Validator {
     uint256 stakedAmount;
@@ -134,7 +135,7 @@ Marketing & Treasury 10% 210M MPCT Strategic campaigns, reserve fund
 
 ```
 BurnAmount = (0.02 × AnnualVolume) + (0.05 × AnnualEmission)
-MinBurn = 0.01 × CirculatingSupply
+MinBurn = 0.01 × CirculatingSupply  
 FinalBurn = max(BurnAmount, MinBurn)
 ```
 
@@ -260,7 +261,7 @@ Progressive decentralization through multi-tier governance:
 · Multi-signature wallet requirements
 · Time-lock on large withdrawals
 · Community voting on major expenditures
-· Transfinancial reporting
+· Transparent financial reporting
 
 ---
 
