@@ -34,5 +34,14 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 ## 🤝 Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
+## 📚 Documentation
+
+### Whitepapers
+- [Moonphase Protocol Whitepaper v2.1](/whitepaper/Moonphase_Whitepaper_v2.1.md) - Latest version
+- [Technical Specifications](/technical/smart-contract-specs.md) - Coming soon
+
+### Research
+- [Lunar Economics Research](/research/lunar-economics-research.md) - Coming soon
+
 ## 📄 License
 MIT License - see LICENSE file
