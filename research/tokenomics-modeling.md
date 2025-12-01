@@ -27,12 +27,12 @@ Moonphase Protocol implements a carefully balanced tokenomic model designed for 
 -------------------------------------------------------------------------------------
 ```
 ### **Key Distribution Principles**
-
-- Staking-Centric   : 45% allocated to long-term network security
-- Ecosystem Growth  : 20% reserved for partnerships and development
-- Team Alignment    : 10% with extended vesting for long-term commitment
-- Market Stability  : 15% for liquidity and 10% for strategic initiative
-
+```
+· Staking-Centric   : 45% allocated to long-term network security
+· Ecosystem Growth  : 20% reserved for partnerships and development
+· Team Alignment    : 10% with extended vesting for long-term commitment
+· Market Stability  : 15% for liquidity and 10% for strategic initiative
+```
 
 ## 📈 Emission Schedule & Halving Mechanism
 
@@ -177,12 +177,13 @@ const investorExamples = {
 ### **5-Year Supply Projection**
 
 ```
-Year Circulating Supply Staked Burned Net Growth Staking Ratio
-1 500M 300M 15M +485M 60%
-2 600M 400M 25M +575M 67%
-3 650M 450M 35M +615M 69%
-4 675M 475M 45M +630M 70%
-5 685M 480M 55M +630M 70%
+Year Circulating Supply Staked Burned Net Growth Staking Ratio :
+
+· 1 500M 300M 15M +485M 60%
+· 2 600M 400M 25M +575M 67%
+· 3 650M 450M 35M +615M 69%
+· 4 675M 475M 45M +630M 70%
+· 5 685M 480M 55M +630M 70%
 ```
 
 ### **Price Appreciation Model**
