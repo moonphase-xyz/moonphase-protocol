@@ -50,9 +50,20 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 
 ## 📚 Documentation
 
+```markdown
+## 📚 Documentation & Research
+
 ### Whitepapers
-- [Moonphase Protocol Whitepaper v2.1](/whitepaper/Moonphase_Whitepaper_v2.1.md) - Latest version
-- [Technical Specifications](/technical/smart-contract-specs.md) - Coming soon
+- [Moonphase Protocol Whitepaper v2.1](/whitepaper/Moonphase_Whitepaper_v2.1.md)
+
+### Economic Research  
+- [Tokenomics Modeling & Analysis](/research/tokenomics-modeling.md) - **NEW** 🆕
+- [Lunar Economics Research](/research/lunar-economics.md) - Coming Soon
+- [Market Analysis](/research/market-analysis.md) - Coming Soon
+
+### Technical Specifications
+- [Smart Contract Specs](/technical/smart-contract-specs.md) - Coming Soon
+- [API Documentation](/technical/api-documentation.md) - Coming Soon
 
 ### Research
 - [Lunar Economics Research](/research/lunar-economics-research.md) - Coming soon
