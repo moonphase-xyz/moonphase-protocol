@@ -48,9 +48,6 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 - Token Deployment & Liquidity
 - Advanced Features Rollout
 
-## 📚 Documentation
-
-```markdown
 ## 📚 Documentation & Research
 
 ### Whitepapers
