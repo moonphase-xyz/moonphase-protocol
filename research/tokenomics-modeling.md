@@ -1,11 +1,11 @@
-```markdown
 # Tokenomics Modeling & Economic Analysis
-*Moonphase Protocol (MPCT) - Sustainable Lunar Economics*
+**Moonphase Protocol (MPCT) - Sustainable Lunar Economics**
 
 ![Tokenomics](https://img.shields.io/badge/tokenomics-modeled-brightgreen)
 ![Sustainability](https://img.shields.io/badge/sustainability-verified-green)
 ![Version](https://img.shields.io/badge/version-2.1-blue)
 ![APY](https://img.shields.io/badge/APY-25--60%25-brightgreen)
+
 
 ## 📊 Executive Summary
 
@@ -15,28 +15,33 @@ Moonphase Protocol implements a carefully balanced tokenomic model designed for 
 
 ### **MPCT Token Distribution**
 
-| Allocation       | Percentage | Token Amount  | Vesting & Mechanism               |
+```
+-------------------------------------------------------------------------------------
+| Allocation       | Percentage | Token Amount  |       Vesting & Mechanism         |
 |------------------|------------|---------------|---------------------------------- |
 | Staking Rewards  | 45%        | 945,000,000   | Daily emission, 24-month halving  |
 | Ecosystem Fund   | 20%        | 420,000,000   | Grants, partnerships, development |
 | Team & Advisors  | 10%        | 210,000,000   | 36-month vesting, 6-month cliff   |
 | Liquidity Mining | 15%        | 315,000,000   | DEX/DeFi incentives, 3-year linear|
 | Marketing & Treasury | 10%    | 210,000,000   | Strategic campaigns, reserve fund |
-
+-------------------------------------------------------------------------------------
+```
 ### **Key Distribution Principles**
-- **Staking-Centric**: 45% allocated to long-term network security
-- **Ecosystem Growth**: 20% reserved for partnerships and development
-- **Team Alignment**: 10% with extended vesting for long-term commitment
-- **Market Stability**: 15% for liquidity and 10% for strategic initiative
 
----
+- Staking-Centric   : 45% allocated to long-term network security
+- Ecosystem Growth  : 20% reserved for partnerships and development
+- Team Alignment    : 10% with extended vesting for long-term commitment
+- Market Stability  : 15% for liquidity and 10% for strategic initiative
+
 
 ## 📈 Emission Schedule & Halving Mechanism
 
 ### **Annual Emission Model**
+
 ```
-```
-javascript
+------------
+|javascript|
+------------
 // MPCT Annual Emission Schedule
 const emissionSchedule = {
   year1: {
@@ -65,23 +70,24 @@ const emissionSchedule = {
   }
 }
 
-
 ```
 
-## halving Economic Impact
+### **Halving Economic Impact**
 
-```markdown
+```
 · Year 1-2: High growth phase with attractive APY
 · Year 3-4: Sustainability phase with controlled emissions
 · Year 5+: Maturity phase with potential deflation
 ```
 
-🔥 Dynamic Deflation Mechanism
+## 🔥 Dynamic Deflation Mechanism
 
-Burning Algorithm
+### **Burning Algorithm**
 
-```markdown
-python
+```
+--------
+|python|
+--------
 # Dynamic Burning Calculation
 def calculate_burn_amount(annual_volume, annual_emission, circulating_supply):
     burn_from_volume = annual_volume * 0.02      # 2% of trading volume
@@ -104,20 +110,20 @@ print(f"Year 1 MPCT burned: {burn_amount:,.0f} tokens")
 
 ```
 
-Burning Scenarios
+### **Burning Scenarios**
 
-```markdown
+```
+----------------------------------------------------------------
 | Trading Volume | Annual Emission | Burn Amount | % of Supply |
 | $500M          | 210M MPCT       | 15M MPCT    | 0.71%       |
 | $1B            | 210M MPCT       | 20M MPCT    | 0.95%       |
 | $2B            | 210M MPCT       | 30M MPCT    | 1.43%       |
-
-
+----------------------------------------------------------------
 ```
 
 ## 💰 Staking Economics & Yield Model
 
-Staking Reward Structure
+### **Staking Reward Structure**
 
 ```markdown
 javascript
@@ -157,19 +163,20 @@ const investorExamples = {
 
 ## Tier-Based Staking Requirements
 
-```markdown
-| Tier Level | Stake Range    | Lock Period Governance Multipliers    |
-| New Moon   | 25K-250K MPCT  | 12 months No voting       | Base only |
-| Crescent   | 250K-1M MPCT   | 3-12 months Basic voting  | +10%      |
-| Full Moon  | 1M+ MPCT       | Flexible Full governance  | +15%      |
-
+```
+-------------------------------------------------------------------------
+| Tier Level | Stake Range    | Lock Period Governance    | Multipliers |
+| New Moon   | 25K-250K MPCT  | 12 months No voting       | Base only   |
+| Crescent   | 250K-1M MPCT   | 3-12 months Basic voting  | +10%        |
+| Full Moon  | 1M+ MPCT       | Flexible Full governance  | +15%        |
+-------------------------------------------------------------------------
 ```
 
 ## 📊 Supply & Price Projections
 
-5-Year Supply Projection
+### **5-Year Supply Projection**
 
-```markdown
+```
 Year Circulating Supply Staked Burned Net Growth Staking Ratio
 1 500M 300M 15M +485M 60%
 2 600M 400M 25M +575M 67%
@@ -178,10 +185,12 @@ Year Circulating Supply Staked Burned Net Growth Staking Ratio
 5 685M 480M 55M +630M 70%
 ```
 
-Price Appreciation Model
+### **Price Appreciation Model**
 
-```markdown
-python
+```
+--------
+|python|
+--------
 def price_projection(year, adoption_rate=0.3, market_sentiment=0.7):
     base_price = 0.001  # Initial price
     
@@ -214,11 +223,11 @@ Year 5: $0.0046 (360% growth)
 ```
 
 
-🎯 Economic Sustainability Analysis
+## 🎯 Economic Sustainability Analysis
 
-Inflation-Deflation Equilibrium
+### **Inflation-Deflation Equilibrium**
 
-```markdown
+```
 Year 1 Economics:
 • Inflation from Emission: 10.0%
 • Deflation from Burning: 2.0-4.0%
@@ -236,22 +245,21 @@ Year 3+ Economics:
 
 ```
 
-```markdown
-# Sustainability Indicators
+### **Sustainability Indicators**
 
+```
 ✅ Controlled Emission Decay: Predictable halving schedule
 ✅ Dynamic Burning: Responsive to network activity
 ✅ Realistic APY Targets: Sustainable yield expectations
 ✅ Multiplier Decay: Prevents long-term inflation
 ✅ Staking Incentives: Maintains network security
-
 ````
 
-🛡️ Risk Mitigation & Investor Protection
+## 🛡️ Risk Mitigation & Investor Protection
 
-Economic Risk Management
+### **Economic Risk Management**
 
-```markdown
+```
 🛡️ Inflation Risk:
 • Halving mechanism controls supply growth
 • Burning creates deflationary pressure
@@ -269,21 +277,20 @@ Economic Risk Management
 
 ```
 
-```markdown
-# Investor Protection Features
+### Investor Protection Features
 
+```
 · Vesting Schedules: Prevent token dumping
 · Transparent Modeling: All assumptions publicly documented
 · Gradual Decentralization: Progressive community governance
 · Security First: Comprehensive audit requirements
 
 ```
-
 ## 📚 Methodology & Assumptions
 
-Modeling Foundation
+### **Modeling Foundation**
 
-```markdown
+```
 Base Assumptions:
 • Total Supply: 2,100,000,000 MPCT
 • Initial Price: $0.001
@@ -294,33 +301,30 @@ Base Assumptions:
 
 ```
 
-```markdowm
-Validation Approach
-
+### **Validation Approach**
+```
 · Comparative Analysis: Benchmarking against successful projects
 · Stress Testing: Performance under various market conditions
 · Community Feedback: Continuous model refinement
 · Real Data Integration: Regular updates based on actual performance
+```
 
-🔄 Continuous Improvement
+## 🔄 Continuous Improvement
 
-This tokenomic model represents our initial framework and will evolve based on:
-
+### **This tokenomic model represents our initial framework and will evolve based on:**
+```
 · Network performance data
 · Community feedback and governance proposals
 · Market conditions and adoption rates
 · Technological advancements in DeFi economics
-
+```
 ---
 ```
-
 Document Version: 2.1
 Last Updated: November 2025
 Model Validation: Peer-reviewed economic principles
 Contact: @moonphase_xyz
 Repository: github.com/moonphase-xyz/moonphase-protocol
-
----
-
-© 2025 Moonphase Protocol. All economic models based on sustainable tokenomic principles and real-world adoption metrics.
+```
+> © 2025 Moonphase Protocol. All economic models based on sustainable tokenomic principles and real-world adoption metrics.
 
