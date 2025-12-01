@@ -381,14 +381,14 @@ Our Commitment: To deliver a sustainable, engaging, and progressively decentrali
 
 ---
 
-> Document Version: 2.1
-Last Updated: November 2025
-Contact: @moonphase_xyz
-Repository: github.com/moonphase-xyz/moonphase-protocol
+Document Version: 2.1
+- Last Updated: November 2025
+- Contact: @moonphase_xyz
+- Repository: github.com/moonphase-xyz/moonphase-protocol
 
 ---
 
-© 2025 Moonphase Protocol. All rights reserved.
+> © 2025 Moonphase Protocol. All rights reserved.
 
 ```
 
