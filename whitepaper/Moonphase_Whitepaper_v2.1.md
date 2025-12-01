@@ -73,7 +73,8 @@ The moon's consistent 29.5-day cycle represents nature's perfect economic model:
 
 ### 4.1 Proof-of-Contribution and Stake (PoCS)
 
-```solidity
+```
+solidity
 struct Validator {
     uint256 stakedAmount;
     uint256 contributionScore;
@@ -82,56 +83,76 @@ struct Validator {
     uint256 referralCount;
 }
 
-4.2 Three-State Token Evolution
+```
 
+### 4.2 Three-State Token Evolution
+
+```
 · Locked State: Newly mined tokens (base rewards only)
 · Restricted State: Internal transfers (+5% reward multiplier)
 · Transferable State: Full external rights (+15% multiplier + governance)
 
-4.3 Lunar Cycle Integration
+```
 
+### 4.3 Lunar Cycle Integration
+
+```
 · New Moon: Accumulation phase - Strategic positioning
 · Crescent: Growth phase - Progressive rewards
 · Full Moon: Peak phase - Maximum incentives
 · Waning: Sustainability phase - Strategic reallocation
 
----
+```
 
-5. Technical Architecture
+## 5. Technical Architecture
 
-5.1 Multi-Layer Infrastructure
+### 5.1 Multi-Layer Infrastructure
 
-Layer Components
-Application Layer dApp Dashboard, Governance Portal
-Consensus Layer PoCS Validator Network
-Execution Layer Smart Contracts, Cross-chain Bridge
-Infrastructure Solana Network, Oracle Integration
+```
+------------------------------------------------------------|
+| Layer               | Components                          |
+------------------------------------------------------------|
+| Application Layer   | dApp Dashboard, Governance Portal   |
+| Consensus Layer     | PoCS Validator Network              |
+| Execution Layer     | Smart Contracts, Cross-chain Bridge |
+| Infrastructure      | Solana Network, Oracle Integration  |
+------------------------------------------------------------|
 
-5.2 Core Smart Contract Suite
+```
 
+### 5.2 Core Smart Contract Suite
+
+```
 · Beacon Contract: Staking management, validator registry
 · Reward Engine: Dynamic multiplier calculations
 · State Transition: Locked → Restricted → Transferable progression
 · Eclipse Burn: Dynamic deflation mechanism
 
-5.3 Cross-Chain Ready Architecture
+```
+
+### 5.3 Cross-Chain Ready Architecture
 
 Initial Solana deployment with native chain development roadmap and cross-chain interoperability design.
 
 ---
 
-6. Tokenomics & Economic Model
+## 6. Tokenomics & Economic Model
 
-6.1 Token Distribution
+### 6.1 Token Distribution
 
-Allocation Percentage Tokens Vesting & Mechanism
-Staking Rewards 45% 945M MPCT Daily emission, 24-month halving
-Ecosystem Fund 20% 420M MPCT Grants, partnerships, development
-Team & Advisors 10% 210M MPCT 36-month vesting, 6-month cliff
-Liquidity Mining 15% 315M MPCT DEX/DeFi incentives, 3-year linear
-Marketing & Treasury 10% 210M MPCT Strategic campaigns, reserve fund
+```
+--------------------------------------------------------------------------------------------
+| Allocation           | Percentage | Tokens          | Vesting & Mechanism                |
+--------------------------------------------------------------------------------------------
+| Staking Rewards      | 45%        | 945M MPCT       | Daily emission, 24-month halving   |
+| Ecosystem Fund       | 20%        | 420M MPCT       | Grants, partnerships, development  |
+| Team & Advisors      | 10%        | 210M MPCT       | 36-month vesting, 6-month cliff    |
+| Liquidity Mining     | 15%        | 315M MPCT       | DEX/DeFi incentives, 3-year linear |
+| Marketing & Treasury | 10%        | 210M MPCT       | Strategic campaigns, reserve fund  |
+--------------------------------------------------------------------------------------------
+```
 
-6.2 Deflation Mechanism
+### 6.2 Deflation Mechanism
 
 ```
 BurnAmount = (0.02 × AnnualVolume) + (0.05 × AnnualEmission)
@@ -139,17 +160,19 @@ MinBurn = 0.01 × CirculatingSupply
 FinalBurn = max(BurnAmount, MinBurn)
 ```
 
-6.3 Economic Sustainability
+### 6.3 Economic Sustainability
 
+```
 · Annual Emission Decay: 50% halving each year
 · Target Net Inflation: 1-3% annually
 · Circulating Supply Control: Burning + vesting schedules
 
----
+```
 
-7. Validator Economy & Incentive Mechanism
 
-7.1 Validator Tier System
+## 7. Validator Economy & Incentive Mechanism
+
+### 7.1 Validator Tier System
 
 Tier Stake Range Privileges Governance Power
 New Moon 25K-250K MPCT Basic rewards No voting
