@@ -116,14 +116,14 @@ struct Validator {
 ### 5.1 Multi-Layer Infrastructure
 
 ```
-------------------------------------------------------------|
+-------------------------------------------------------------
 | Layer               | Components                          |
 ------------------------------------------------------------|
 | Application Layer   | dApp Dashboard, Governance Portal   |
 | Consensus Layer     | PoCS Validator Network              |
 | Execution Layer     | Smart Contracts, Cross-chain Bridge |
 | Infrastructure      | Solana Network, Oracle Integration  |
-------------------------------------------------------------|
+-------------------------------------------------------------
 
 ```
 
