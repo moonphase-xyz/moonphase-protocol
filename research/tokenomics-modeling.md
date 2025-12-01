@@ -16,15 +16,15 @@ Moonphase Protocol implements a carefully balanced tokenomic model designed for 
 ### **MPCT Token Distribution**
 
 ```
--------------------------------------------------------------------------------------
-| Allocation       | Percentage | Token Amount  |       Vesting & Mechanism         |
-|------------------|------------|---------------|---------------------------------- |
-| Staking Rewards  | 45%        | 945,000,000   | Daily emission, 24-month halving  |
-| Ecosystem Fund   | 20%        | 420,000,000   | Grants, partnerships, development |
-| Team & Advisors  | 10%        | 210,000,000   | 36-month vesting, 6-month cliff   |
-| Liquidity Mining | 15%        | 315,000,000   | DEX/DeFi incentives, 3-year linear|
-| Marketing & Treasury | 10%    | 210,000,000   | Strategic campaigns, reserve fund |
--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+| Allocation           | Percentage | Token Amount  |       Vesting & Mechanism         |
+|----------------------|------------|---------------|---------------------------------- |
+| Staking Rewards      | 45%        | 945,000,000   | Daily emission, 24-month halving  |
+| Ecosystem Fund       | 20%        | 420,000,000   | Grants, partnerships, development |
+| Team & Advisors      | 10%        | 210,000,000   | 36-month vesting, 6-month cliff   |
+| Liquidity Mining     | 15%        | 315,000,000   | DEX/DeFi incentives, 3-year linear|
+| Marketing & Treasury | 10%        | 210,000,000   | Strategic campaigns, reserve fund |
+-----------------------------------------------------------------------------------------
 ```
 ### **Key Distribution Principles**
 ```
