@@ -18,4 +18,4 @@ PoCS (Proof of Contribution & Stake) is our innovative consensus mechanism that 
 - [Lunar Economics](./LUNAR_ECONOMICS.md)
 
 ---
-*Last Updated: 2025-12-02*
+> *Last Updated: 2025-12-02*
