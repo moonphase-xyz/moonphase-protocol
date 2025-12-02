@@ -239,11 +239,11 @@ Phase 4: Advanced Features (Year 2)
 ```
 
 ## 🔗 Resources
-```
-· Whitepaper
-· GitHub
-· Research Papers
-```
+
+- [Moonphase Protocol Whitepaper v2.1](/whitepaper/Moonphase_Whitepaper_v2.1.md)
+- [GitHub](https://github.com/moonphase-xyz/moonphase-protocol)
+- [Research Papers](https://github.com/moonphase-xyz/moonphase-protocol/tree/main/research)
+
 ---
 
 > Consensus Protocol Version: 1.0 | Designed for Solana Network
