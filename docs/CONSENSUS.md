@@ -187,29 +187,25 @@ def distribute_rewards(validators):
 
 ## 🚀 Implementation Roadmap
 
-### Phase 1: Basic PoS (Months 1-3)
-
-````
+### *Phase 1: Basic PoS (Months 1-3)*
 · Simple staking mechanism
 · Foundation for PoCS
 
-Phase 2: Contribution Tracking (Months 4-6)
-
+### *Phase 2: Contribution Tracking (Months 4-6)*
 · Basic contribution metrics
 · Manual scoring system
 
-Phase 3: Full PoCS (Months 7-12)
-
+### *Phase 3: Full PoCS (Months 7-12)*
 · Automated scoring
 · Lunar phase integration
 · Complete validator tiers
 
-Phase 4: Advanced Features (Year 2)
-
+### *Phase 4: Advanced Features (Year 2)*
 · AI-assisted contribution evaluation
 · Cross-chain contribution portability
 · Advanced governance mechanisms
-````
+
+---
 
 **❓ FAQ**
 
