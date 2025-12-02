@@ -87,11 +87,12 @@ Moonphase Protocol represents a fundamental evolution in blockchain design—tra
 | Waxing Gibbous | Months 10-12 | Cross-chain integration |
 | Full Moon | Year 2 | Mainstream adoption |
 
+```
 Initial Launch: Solana (for speed & scalability)
 Phase 2:Ethereum bridge (for liquidity)
 Phase 3:Cosmos/IBC integration (for interoperability)
 Phase 4:Native chain development
-
+```
 
 ### **Integration Partners**
 | Partner Type | Examples | Integration Level |
