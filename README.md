@@ -66,23 +66,60 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 - [Lunar Economics Research](/research/lunar-economics-research.md) - Coming soon
 - [Tokenomics Modeling](/research/tokenomics-modeling.md) - Coming soon
 
-## 🌐 Links
+## 🎯 Project Status
 
-- **Twitter**: [@moonphase_xyz](https://x.com/moonphase_xyz)
-- **Telegram**: [t.me/moonphase_xyz](https://t.me/moonphase_xyz)
-- **Website**: [moonphase.xyz](https://moonphase.xyz) (Coming Soon)
+### **Current Phase: Active Development** 🚀
+- **Smart Contracts:** In development (Rust/Anchor)
+- **Frontend Dashboard:** UI/UX design phase
+- **Community:** 3,500+ members and growing
+- **Next Milestone:** Presale preparation
+
+### **📅 30-Day Development Roadmap**
+| Week | Focus | Status |
+|------|-------|--------|
+| **Week 1-2** | Core protocol specification | ✅ Completed |
+| **Week 3-4** | Smart contract development | 🔄 In Progress |
+| **Week 5-6** | Testnet deployment | 📅 Planned |
+| **Week 7-8** | Community presale | 📅 Planned |
+
+### **📊 Live Community Metrics**
+- 🌍 **Telegram Channel :** Subcribe 1K
+- 🐦 **Twitter Followers:** Growing daily
+- ⭐ **GitHub Stars:** [Current Count]
+- 👁️ **GitHub Watchers:** [Current Count]
+
+### **🔗 Quick Links**
+- [🌐 Website](https://moonphase.xyz) - Official homepage
+- [📖 Whitepaper](docs/WHITEPAPER.md) - Technical documentation
+- [💬 Telegram Community](https://t.me/moonphase_protocol) - Join discussion
+- [🐦 Twitter Updates](https://twitter.com/moonphase_xyz) - Latest news
+- [🎨 Brand Assets](assets/branding/) - Logos & graphics
+
+### **🤝 How to Contribute**
+We welcome community contributions! Please read our [Contribution Guidelines](.github/CONTRIBUTING.md) before submitting PRs.
+
 
 ## 🤝 Contributing
 
 We welcome community contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
 
-**Development Phases:**
-- Phase 1: Documentation & Frontend (CURRENT)
-- Phase 2: Smart Contracts (POST-LAUNCH)
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+### **❓ Frequently Asked Questions**
+**Q: When is the presale?**  
+A: Whitelist registration opens in 7-10 days. Join Telegram for updates!
+
+**Q: What's the minimum investment?**  
+A: $100 (100,000 MPCT at presale price)
+
+**Q: Why Solana?**  
+A: Speed (65,000 TPS), low fees ($0.0001), and growing ecosystem.
+
+---
+*Last Updated: $(date)* | *Repository Version: 1.1*
 
 ---
 
