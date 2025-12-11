@@ -148,15 +148,16 @@ Initial Solana deployment with native chain development roadmap and cross-chain 
 ### 6.1 Token Distribution
 
 ```
---------------------------------------------------------------------------------------------
-| Allocation           | Percentage | Tokens          | Vesting & Mechanism                |
---------------------------------------------------------------------------------------------
-| Staking Rewards      | 45%        | 945M MPCT       | Daily emission, 24-month halving   |
-| Ecosystem Fund       | 20%        | 420M MPCT       | Grants, partnerships, development  |
-| Team & Advisors      | 10%        | 210M MPCT       | 36-month vesting, 6-month cliff    |
-| Liquidity Mining     | 15%        | 315M MPCT       | DEX/DeFi incentives, 3-year linear |
-| Marketing & Treasury | 10%        | 210M MPCT       | Strategic campaigns, reserve fund  |
---------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+| Allocation           | Percentage | Tokens            | Vesting & Mechanism                       |
+----------------------------------------------------------------------------------------------------
+| Staking Rewards      | 60%        | 1,260B MPCT       | Daily emission, 24-month halving          |
+| Ecosystem Fund       | 10%        | 210M   MPCT       | Grants, partnerships, development         |
+| Liquidity Mining     | 10%        | 210M   MPCT       | DEX/DeFi incentives, 3-year linear        |
+| Team & Advisors      | 3%         | 63M    MPCT       | 36-month vesting, 6-month cliff           |
+| Marketing & Treasury | 2%         | 42M    MPCT       | Strategic campaigns, reserve fund         |
+| Presale              | 15%        | 315M   MPCT       | Early distribution split into two regions |
+----------------------------------------------------------------------------------------------------
 ```
 
 ### 6.2 Deflation Mechanism
