@@ -32,7 +32,7 @@ Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial
 - **Supply**: 2,100,000,000
 - **Network**: Solana
 - **Standard**: SPL Token
-- **Initial Price**: $0.001
+- **Initial Price**: $0.0075
 
 ## 🛠️ Development Status
 
