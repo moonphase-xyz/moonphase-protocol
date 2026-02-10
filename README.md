@@ -85,6 +85,11 @@ There are **no guaranteed outcomes**.
 - 🧭 **Governance**  
   MoonDAO (on-chain)
 
+
+- 📑 **Changelog**  
+  [Changelog](./CHANGELOG.md)
+
+
 - 🧪 **Source Code & Contracts**  
   See repository directories
 
