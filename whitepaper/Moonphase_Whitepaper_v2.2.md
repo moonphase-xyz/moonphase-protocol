@@ -78,6 +78,7 @@ It is built to outlast it.
 
 ---
 
+
 ## 2. Introduction: The Philosophy of Lunar Economics
 
 Lunar Economics is founded on a simple observation: stable natural systems operate in predictable, cyclical patterns. The 29.5-day lunar cycle serves as the temporal inspiration for Moonphase Protocol—not as symbolism, but as a disciplinary timing framework for economic behavior.
@@ -109,6 +110,7 @@ The philosophy of Lunar Economics is guided by four core principles:
 4. **Economic Neutrality** – Cycles influence reward timing, not total token supply
 
 Through this approach, Lunar Economics functions as a behavior-alignment mechanism, not a yield amplification tool.
+
 
 ## 3. Problem Statement
 ### 3.1 Economic Fragility in Existing Protocols
@@ -417,9 +419,8 @@ APR levels are influenced by:
 
 - temporal modifiers from Lunar Economics.
 
-```
-High APR reflects early participation efficiency, not increased token issuance.
-```
+
+> High APR reflects early participation efficiency, not increased token issuance.
 
 As participation grows, APR naturally declines, reinforcing sustainable reward distribution over time.
 
