@@ -137,7 +137,7 @@ See the [LICENSE](./LICENSE) file for details.
 ## 🔗 External Links
 
 - 🌐 Website: https://moonphase.xyz *(upcoming)*
-- 💬 Community: https://t.me/moonphase_protocol
+- 💬 Community: https://t.me/moonphase_xyz
 - 🐦 Updates: https://twitter.com/moonphase_xyz
 
 ---
