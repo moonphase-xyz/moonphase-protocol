@@ -21,6 +21,8 @@
    - 6.1 [Fixed Supply & Distribution Integrity](#61-fixed-supply--distribution-integrity)
    - 6.2 [Presale Positioning & Economic Neutrality](#62-presale-positioning--economic-neutrality)
    - 6.3 [Emission Framework & Economic Guardrails](#63-emission-framework--economic-guardrails)
+   - 6.4 [Reward Distributin & Burn Mechanics](#64-reward-distribution--burn-mechanics)
+   - 6.5 [APR Dynamics & Sustainability Context](#65-apr-dynamics--sustainability-context)
 7. [Validator Economy & APR Dynamics](#7-validator-economy--apr-dynamics)
    - 7.1 [APR as a Participation Variable](#71-apr-as-a-participation-variable)
    - 7.2 [APR Ranges & Sustainability Context](#72-apr-ranges--sustainability-context)
@@ -291,295 +293,817 @@ Core infrastructure components include:
 
 Network participation is permissionless within protocol-defined requirements, ensuring decentralization without compromising baseline security.
 
-5.2 Smart Contract Architecture
+### 5.2 Smart Contract Architecture
 
 Moonphase Protocol employs a modular smart contract architecture designed to isolate responsibilities and minimize systemic risk.
 
 Core contract modules include:
 
-Staking & Participation Contracts — manage stake locking, validator registration, and contribution tracking
+- **Staking & Participation Contracts** — manage stake locking, validator registration, and contribution tracking
 
-Reward Engine — calculates contribution-weighted rewards within emission guardrails
+- **Reward Engine** — calculates contribution-weighted rewards within emission guardrails
 
-State Transition Manager — enforces the Three-State Token Model progression
+- **State Transition Manager** — enforces the Three-State Token Model progression
 
-Governance Interface — executes approved proposals within predefined constraints
+- **Governance Interface** — executes approved proposals within predefined constraints
 
 Contracts are designed to be:
 
-deterministic,
+- deterministic,
 
-auditable,
+- auditable,
 
-and upgradeable only through governance-approved mechanisms.
+- and upgradeable only through governance-approved mechanisms.
 
 Critical parameters are protected by time-locks and multi-stage approval processes.
 
-5.3 Cross-Chain Readiness
+### 5.3 Cross-Chain Readiness
 
 While initially deployed on Solana, Moonphase Protocol is designed with cross-chain compatibility in mind.
 
 Cross-chain readiness includes:
 
-abstraction of core economic logic from execution layers,
+- abstraction of core economic logic from execution layers,
 
-standardized message-passing interfaces,
+- standardized message-passing interfaces,
 
-compatibility with future bridge and interoperability frameworks.
+- compatibility with future bridge and interoperability frameworks.
 
 Any cross-chain expansion will be subject to:
 
-additional security audits,
+- additional security audits,
 
-governance approval,
+- governance approval,
 
-and risk assessment specific to the target environment.
+- and risk assessment specific to the target environment.
 
 Cross-chain functionality is treated as an extension—not a dependency—of the core protocol.
 
 ---
 
-## 6. Tokenomics & Economic Model
+## 6. Tokenomics & Economic Sustainability
 
-### 6.1 Token Distribution
+Moonphase Protocol’s tokenomics are designed to support long-term network resilience, not short-term yield optimization. All economic mechanisms operate within a fixed-supply framework, governed by predefined emission schedules and enforceable constraints.
+
+The protocol prioritizes participation quality, temporal alignment, and economic neutrality across all distribution channels.
+
+### 6.1 Fixed Supply & Distribution Integrity
+
+The total supply of MPCT is permanently capped at 2.1 billion tokens. No minting beyond the genesis allocation is possible under any circumstance, including governance actions or protocol upgrades.
+
+Token distribution is structured to:
+
+- prevent early concentration of influence,
+
+- align rewards with sustained participation,
+
+- and preserve scarcity over multiple network generations.
+
+Ownership of MPCT alone does not guarantee yield, governance power, or network influence.
+
+### 6.2 Presale Positioning & Economic Neutrality
+
+The Presale allocation (15% / 315 million MPCT) functions solely as an early-access distribution mechanism and is economically neutral by design.
+
+Presale tokens:
+
+- do not receive staking multipliers,
+
+- do not grant automatic governance authority,
+
+- are subject to vesting schedules and the Three-State Token Model.
+
+This ensures that early participation does not translate into structural dominance or long-term imbalance.
+
+### 6.3 Emission Framework & Economic Guardrails
+
+Staking rewards represent 60% of the total supply, distributed over a multi-decade emission schedule exceeding 30 years. Emissions follow a decay model that progressively reduces issuance as network maturity increases.
+
+Economic guardrails include:
+
+- Target annual net inflation: 1–3%
+
+- Emission throttling during abnormal participation or market conditions
+
+- Governance-controlled emergency dampening mechanisms
+
+These guardrails ensure that incentive mechanisms remain sustainable, predictable, and resistant to short-term exploitation.
+
+### 6.4 Reward Distribution & Burn Mechanics
+
+Reward distribution is governed by the Proof-of-Contribution and Stake (PoCS) framework, where incentives scale with participation quality rather than capital size alone.
+
+To counterbalance emissions, Moonphase Protocol implements deflationary mechanisms, which may include:
+
+- protocol fee burns,
+
+- participation-based burn triggers,
+
+- controlled supply reduction during periods of excess circulation growth.
+
+Burn mechanisms are designed to complement emission decay, maintaining long-term supply equilibrium.
+
+### 6.5 APR Dynamics & Sustainability Context
+
+All APR figures referenced within Moonphase Protocol are dynamic and participation-dependent, not fixed or guaranteed.
+
+APR levels are influenced by:
+
+- total network stake participation,
+
+- individual contribution metrics,
+
+- emission phase progression,
+
+- temporal modifiers from Lunar Economics.
 
 ```
-----------------------------------------------------------------------------------------------------
-| Allocation           | Percentage | Tokens            | Vesting & Mechanism                       |
-----------------------------------------------------------------------------------------------------
-| Staking Rewards      | 60%        | 1,260B MPCT       | Daily emission, 24-month halving          |
-| Ecosystem Fund       | 10%        | 210M   MPCT       | Grants, partnerships, development         |
-| Liquidity Mining     | 10%        | 210M   MPCT       | DEX/DeFi incentives, 3-year linear        |
-| Team & Advisors      | 3%         | 63M    MPCT       | 36-month vesting, 6-month cliff           |
-| Marketing & Treasury | 2%         | 42M    MPCT       | Strategic campaigns, reserve fund         |
-| Presale              | 15%        | 315M   MPCT       | Early distribution split into two regions |
-----------------------------------------------------------------------------------------------------
+High APR reflects early participation efficiency, not increased token issuance.
 ```
 
-### 6.2 Deflation Mechanism
-
-```
-BurnAmount = (0.02 × AnnualVolume) + (0.05 × AnnualEmission)
-MinBurn = 0.01 × CirculatingSupply  
-FinalBurn = max(BurnAmount, MinBurn)
-```
-
-### 6.3 Economic Sustainability
-
-```
-· Annual Emission Decay: 50% halving each year
-· Target Net Inflation: 1-3% annually
-· Circulating Supply Control: Burning + vesting schedules
-```
+As participation grows, APR naturally declines, reinforcing sustainable reward distribution over time.
 
 ---
 
 
-## 7. Validator Economy & Incentive Mechanism
+## 7. Validator Economy & APR Dynamics
 
-### 7.1 Validator Tier System
+The validator economy of Moonphase Protocol is structured to reward long-term participation, operational reliability, and sustained contribution, rather than short-term capital efficiency. All validator incentives operate strictly within the protocol’s fixed-supply emission framework and are subject to predefined economic guardrails.
 
-```
------------------------------------------------------------------------------
-| Tier      | Stake Range   | Privileges                 | Governance Power |
------------------------------------------------------------------------------
-| New Moon  | 25K-250K MPCT | Basic rewards              | No voting        |
-| Crescent  | 250K-1M MPCT  | Enhanced rewards + KYC     | Basic voting     |
-| Full Moon | 1M+ MPCT      | Max rewards + fee sharing  | Governance power |
------------------------------------------------------------------------------
+APR within Moonphase Protocol is treated as an emergent system variable, not a promised return.
 
-```
+### 7.1 APR as a Participation Variable
 
-### 7.2 Reward Calculation
+Annual Percentage Rate (APR) in Moonphase Protocol is not fixed, guaranteed, or predetermined. It is dynamically derived from network participation conditions and individual contribution metrics.
 
-```
-R = E_d × (S / S_total) × (1 + B)
-Where B = KYC(0.3) + CheckIn(0.2) + Referral(0.05 per active, 0.01 per non-active)
-```
+APR outcomes are determined by:
 
-APY Range:
+- total active network stake,
 
-- Base: 25-35%
-- Maximum (with boosters): 50-60%
+- validator participation duration,
 
-### 7.3 Dynamic Fee Decay
+- contribution quality and performance consistency,
 
-```
-----------
-|solidity|
-----------
-function getTransferFee(address validator) public view returns (uint256) {
-    uint256 activeDays = (block.timestamp - validators[validator].miningStartTime) / 1 days;
-    uint256 baseFee = 20; // 2%
-    uint256 reduction = (activeDays / 90) * 10; // 0.1% every 90 days
-    uint256 finalFee = baseFee > reduction ? baseFee - reduction : 50; // Min 0.5%
-    return finalFee;
-}
-```
+- emission phase parameters defined in Section 6.3.
 
----
+All APR distributions are sourced exclusively from pre-allocated emission reserves within the fixed total supply. No APR mechanism results in token minting beyond the genesis allocation.
 
-## 8. Security, Compliance & Risk Management
+APR calculations do not differentiate between presale-acquired tokens and post-launch tokens. Reward eligibility is determined solely by participation conditions, not acquisition timing.
 
-### 8.1 Advanced Security Protocols
+### 7.2 APR Ranges & Sustainability Context
 
-- Slashing Mechanism: Economic penalties for malicious behavior
-- Sybil Resistance: Minimum stake + KYC requirements
-- Front-running Protection: MEV-resistant transaction ordering
-- Time-lock Contracts: Governance decision delays
+APR ranges within Moonphase Protocol are contextual and dynamic, reflecting the maturity of the network and overall participation density.
 
-### 8.2 Privacy-Preserving Compliance
+General characteristics include:
 
-```
-----------
-|solidity|
-----------
-function verifyKYC(address user, uint8 level, bytes32 hashProof) public onlyKYCUracle {
-    require(level >= 1 && level <= 3, "Invalid KYC level");
-    kyclevel[user] = level;
-    emit KYCVerified(user, level);
-}
-```
+- higher relative APR during early network stages with lower participation,
 
-### 8.3 Risk Mitigation Framework
+- gradual normalization as total stake and validator count increase,
 
-- Staking Participation Target: 40-60% of circulating supply
-- Validator Count Target: 100-500 active nodes
-- Maximum Stake Cap: 5% per validator
-- Treasury Reserve: Market volatility protection
+- natural APR compression driven by emission decay and participation growth.
+
+APR values are not targets, guarantees, or commitments. They are descriptive indicators of network state and incentive efficiency at a given point in time.
+
+This approach prevents yield escalation, discourages speculative validator behavior, and supports long-term economic sustainability.
+
+### 7.3 Proof-of-Contribution Reward Model
+
+Validator rewards are governed by the Proof-of-Contribution and Stake (PoCS) framework, which ensures that incentives scale with behavioral reliability and network contribution, not capital size alone.
+
+Under PoCS:
+
+- staking establishes baseline eligibility,
+
+- contribution metrics determine reward weighting,
+
+- sustained performance over time increases reward efficiency.
+
+Contribution signals may include:
+
+validator uptime and execution reliability,
+
+- compliance with protocol standards,
+
+- duration and consistency of participation,
+
+- ecosystem-supportive actions recognized by governance.
+
+This model aligns validator incentives with network health, reduces capital-dominant influence, and reinforces participation discipline across multiple network cycles.
 
 ---
 
-## 9. Roadmap & Development Timeline
+## 8. Lunar Economics: Operational Mechanics
 
-Phase 1: Foundation (Months 0-3)
+Lunar Economics within Moonphase Protocol is not a metaphorical concept or branding narrative. It is an operational timing framework that governs how incentives are distributed, weighted, and realized over time.
 
-- Smart contract development & auditing
-- Testnet deployment & validator recruitment
-- Basic staking mechanism activation
-- Initial liquidity pool establishment
+The lunar cycle functions as a temporal coordination mechanism, ensuring predictable, disciplined incentive flows without altering total supply or emission volume.
 
-Phase 2: Expansion (Months 4-6)
+### 8.1 From Metaphor to Mechanism
 
-- KYC integration with ZKP implementation
-- Restricted state activation
-- Enhanced dashboard & mobile app
-- Community governance framework
+While inspired by natural lunar cycles, Lunar Economics is implemented as a deterministic protocol-level system.
 
-Phase 3: Maturity (Months 7-12)
+Key characteristics include:
 
-- Full governance implementation
-- Cross-chain bridge development
-- Ecosystem fund deployment
-- Enterprise partnership programs
+- fixed-duration economic cycles aligned with standardized lunar periods,
 
-Long-term Vision (2026-2030)
+- protocol-enforced timing boundaries for reward realization,
 
-- Native chain development
-- Global validator network expansion
-- Mainstream adoption initiatives
+- cycle-based state transitions within the token and reward system.
 
----
+Lunar phases do not generate additional value or supply. They serve exclusively as time-based reference points that structure participation and reward timing.
 
-## 10. Team & Governance
+This design removes discretionary control over incentive distribution and replaces it with predictable, rule-based execution.
 
-### 10.1 Core Team Structure
+### 8.2 Cycle-Based Incentive Bias
 
-Transparent team disclosure with verified expertise in blockchain development, cryptographic research, economic modeling, and ecosystem growth.
+Moonphase Protocol applies cycle-based incentive bias to encourage sustained participation rather than episodic engagement.
 
-### 10.2 MoonDAO Governance
+Incentive biasing may include:
 
-Progressive decentralization through multi-tier governance:
+- higher reward weighting for uninterrupted multi-cycle participation,
 
-- Token-weighted Voting: Major protocol decisions
-- Validator Councils: Technical implementation oversight
-- Community Proposals: Bottom-up innovation driving
-- Expert Committees: Specialized domain guidance
+- reduced efficiency for short-term or intermittent engagement,
 
-### 10.3 Treasury Management
+- progressive unlocking of token states tied to cycle completion.
 
-- Multi-signature wallet requirements
-- Time-lock on large withdrawals
-- Community voting on major expenditures
-- Transparent financial reporting
+This bias does not alter total emissions. Instead, it redistributes reward timing and weighting in favor of long-term contributors.
 
----
+Cycle-based bias discourages opportunistic entry and exit behavior while maintaining economic neutrality at the supply level.
 
-## 11. Use Cases & Ecosystem Integration
+### 8.3 Emission Neutrality Principle
 
-### 11.1 DeFi Integration
+The Emission Neutrality Principle is a core invariant of Lunar Economics.
 
-- Liquidity provisioning with enhanced rewards
-- Cross-protocol yield optimization
-- Decentralized lending/borrowing markets
+Under this principle:
 
-### 11.2 NFT & Digital Collectibles
+- lunar cycles influence when rewards are distributed,
 
-- Lunar phase-themed NFT collections
-- Validator reputation soulbound tokens
-- Governance participation certificates
+- not how many tokens are emitted in total.
 
-### 11.3 SocialFi & Community
+All emissions remain bound by:
 
-- Contribution-based social rewards
-- Reputation-weighted governance
-- Community achievement recognition
+- the fixed supply constraint,
 
-### 11.4 Enterprise Applications
+- the emission framework defined in Section 6.3,
 
-- Supply chain transparency solutions
-- Digital identity verification services
-- Cross-border payment infrastructure
+- and governance-enforced guardrails.
+
+Lunar Economics does not increase APR ceilings, inflate supply, or introduce hidden yield amplification. Its sole function is to coordinate incentive timing in a predictable and behavior-aligned manner.
 
 ---
 
-## 12. Conclusion & Vision
+## 9. Security, Compliance & Risk Management
 
-Moonphase Protocol represents a fundamental evolution in blockchain design—where celestial wisdom meets cryptographic innovation. We're not just building another blockchain; we're creating an economic ecosystem that grows with the natural rhythm of the universe.
+Security, compliance, and risk management within Moonphase Protocol are treated as foundational design constraints, not optional features. The protocol is engineered to minimize trust assumptions, limit discretionary control, and ensure that all critical actions are rule-based, transparent, and auditable.
 
-Our Vision: To become the leading lunar-inspired blockchain ecosystem, recognized for sustainable economics, robust security, and genuine community governance.
+Moonphase Protocol does not claim absolute security. Instead, it applies layered safeguards to reduce attack surfaces, contain failures, and align participant incentives with network integrity.
 
-Our Commitment: To deliver a sustainable, engaging, and progressively decentralized platform that rewards patience, values contribution, and grows organically across generations.
+### 9.1 Security-by-Design Architecture
 
-> "The moon does not fight. It attacks no one. It does not worry. It does not try to crush others. It keeps to its course, but by its very nature, it gently influences. What other body could pull an entire ocean from shore to shore? The moon is faithful to its nature and its power is never diminished." — Deng Ming-Dao
+Security considerations are embedded at every layer of the protocol architecture.
+
+Core security principles include:
+
+- modular smart contract isolation,
+
+- deterministic execution paths,
+
+- minimized privileged roles,
+
+- governance-controlled upgrade mechanisms.
+
+Critical system parameters are protected by time-locks and multi-stage authorization to reduce the risk of unilateral or impulsive changes.
+
+### 9.2 Validator Accountability & Economic Security
+
+Validators are economically accountable for their actions through stake-based security mechanisms.
+
+Economic security measures include:
+
+- staking requirements as collateral for participation,
+
+- reward reduction for sustained underperformance,
+
+- stake penalties for verified malicious behavior.
+
+These mechanisms ensure that validator incentives remain aligned with network stability and honest participation.
+
+### 9.3 Non-Custodial Staking Assurance
+
+All staking mechanisms within Moonphase Protocol are non-custodial by default.
+
+Participants:
+
+- retain control over their private keys,
+
+- interact directly with protocol smart contracts,
+
+- are not required to transfer asset custody to centralized entities.
+
+The protocol does not provide discretionary fund access to validators, operators, or governance participants.
+
+### 9.4 Defense Against Economic Attacks
+
+Moonphase Protocol incorporates safeguards against common economic attack vectors, including:
+
+- short-term stake concentration,
+
+- reward extraction strategies,
+
+- governance manipulation through capital dominance.
+
+Defensive measures include:
+
+- emission throttling under abnormal conditions,
+
+- participation-weighted reward distribution,
+
+- governance constraints that prevent rapid parameter abuse.
+
+These defenses are designed to reduce economic exploitability rather than eliminate all risk.
+
+### 9.5 Privacy-Preserving Compliance Framework
+
+Moonphase Protocol adopts a privacy-preserving compliance approach, balancing regulatory awareness with user sovereignty.
+
+Key characteristics include:
+
+- no mandatory identity collection at the protocol layer,
+
+- compatibility with jurisdiction-specific compliance overlays,
+
+- selective disclosure capabilities without compromising on-chain transparency.
+
+Compliance responsibilities are distributed across ecosystem participants rather than centralized at the protocol core.
+
+### 9.6 Governance-Constrained Privileges
+
+Any privileged operations within Moonphase Protocol are strictly constrained by governance rules.
+
+Constraints include:
+
+- clearly defined scope of authority,
+
+- on-chain proposal and voting requirements,
+
+- time-delayed execution of approved actions.
+
+No individual, validator, or entity can unilaterally modify core economic or security parameters.
+
+### 9.7 Smart Contract Assurance & Audit Process
+
+Smart contracts undergo continuous assurance processes, including:
+
+- internal code reviews,
+
+- third-party security audits,
+
+- automated testing and monitoring.
+
+Audit findings and remediation actions are documented and disclosed where appropriate to maintain transparency and accountability.
+
+### 9.8 Risk Disclosure & Participant Responsibility
+
+Participation in Moonphase Protocol involves inherent risks, including:
+
+- smart contract vulnerabilities,
+
+- market volatility,
+
+- validator performance variability,
+
+- governance outcomes beyond individual control.
+
+Participants are responsible for:
+
+- understanding protocol mechanics,
+
+- evaluating personal risk tolerance,
+
+- complying with applicable local regulations.
+
+The protocol does not guarantee profitability, safety, or uninterrupted operation.
+
+### 9.9 Incident Response & Recovery Framework
+
+Moonphase Protocol maintains an incident response framework designed to:
+
+- detect anomalous behavior,
+
+- contain impact through predefined safeguards,
+
+- coordinate recovery actions via governance-approved processes.
+
+Emergency measures may include temporary parameter adjustments or participation restrictions, executed transparently and subject to post-incident review.
 
 ---
 
-## 13. References & Appendices
+## 10. Governance & MoonDAO
 
-### 13.1 Technical Specifications
+Governance within Moonphase Protocol is designed to ensure progressive decentralization, economic discipline, and long-term protocol integrity. MoonDAO functions as the coordination layer through which governance decisions are proposed, evaluated, and executed within clearly defined constraints.
 
-- Smart contract source code and audit reports
-- Network performance benchmarks
-- Security implementation details
-- Integration documentation
+Governance is not intended to optimize for speed or popularity, but for deliberate, accountable decision-making.
 
-### 13.2 Economic Research
+### 10.1 Governance Philosophy
 
-- Tokenomics modeling and simulations
-- Game theory analysis of incentive mechanisms
-- Behavioral economics in blockchain design
-- Comparative protocol analysis
+Moonphase Protocol governance is guided by the principle that authority must be earned, constrained, and reversible.
 
-### 13.3 Compliance Documentation
+Key philosophical foundations include:
 
-- Regulatory alignment framework
-- Privacy protection implementation
-- Cross-jurisdictional compliance analysis
+- governance power is derived from sustained participation, not token accumulation alone,
 
-### 13.4 Key Updates Highlights
+- no governance action may violate fixed supply or core economic invariants,
 
-- ☑️ Token Distribution - Finalized with precise percentages and mechanisms
-- ☑️ Emission Schedule - Clear numbers with 10-year projection
-- ☑️ Validator Economics - Mathematical formulas and APY ranges
-- ☑️ Three-State Model - Complete token progression workflow
-- ☑️ Deflation Mechanism - Dynamic burning calculations
-- ☑️ Security Parameters - Concrete risk mitigation targets
+- governance decisions must prioritize protocol longevity over short-term interests.
+
+Governance exists to steward the protocol—not to control it.
+
+### 10.2 Governance Layers & Roles
+
+Governance within Moonphase Protocol operates across multiple layers:
+
+- **Protocol Layer** — enforces immutable rules such as fixed supply and emission ceilings
+
+- **Governance Layer (MoonDAO)** — manages parameter adjustments, treasury actions, and ecosystem decisions
+
+- **Participant Layer** — includes validators, contributors, and token holders with defined governance rights
+
+Roles and privileges are explicitly defined to prevent overlap, ambiguity, or discretionary authority.
+
+### 10.3 Governance Authority Distribution
+
+Governance authority is distributed to balance decentralization with operational stability.
+
+Authority distribution is influenced by:
+
+- duration of participation,
+
+- contribution quality under PoCS,
+
+- token state progression within the Three-State Token Model.
+
+No single participant or group can unilaterally control governance outcomes.
+
+### 10.4 Proposal Lifecycle
+
+All governance proposals follow a standardized lifecycle:
+
+1. **Submission** — proposal creation with defined scope and rationale
+
+2. **Discussion** — public review and community feedback period
+
+3. **Voting** — on-chain voting within predefined quorum and threshold requirements
+
+4. **Execution** — time-delayed implementation via smart contracts
+
+Proposals that conflict with protocol invariants are automatically rejected.
+
+### 10.5 Safeguards Against Governance Capture
+
+Moonphase Protocol implements safeguards to reduce governance capture risk, including:
+
+- voting weight modifiers based on participation quality,
+
+- time-based lock requirements for governance eligibility,
+
+- quorum thresholds that scale with network maturity,
+
+- delayed execution to allow review and intervention.
+
+These mechanisms discourage rapid accumulation of influence.
+
+### 10.6 Treasury & Ecosystem Fund Governance
+
+Treasury and ecosystem funds are governed through MoonDAO and subject to:
+
+- transparent budgeting and allocation proposals,
+
+- milestone-based fund release,
+
+- post-allocation accountability and reporting.
+
+Funds are deployed to support long-term ecosystem development rather than short-term incentives.
+
+### 10.7 Governance Evolution Roadmap
+
+Governance mechanisms are expected to evolve as the network matures.
+
+The governance roadmap includes:
+
+- gradual expansion of participant governance rights,
+
+- refinement of voting models and participation thresholds,
+
+- progressive reduction of any initial coordination roles.
+
+All governance evolution is subject to the same constraints as core protocol decisions.
+
+### 10.8 Governance Risk Disclosure
+
+Governance participation carries inherent risks, including:
+
+- proposal outcomes that diverge from individual preferences,
+
+- delayed or conservative decision-making,
+
+- coordination challenges during periods of rapid growth.
+
+Moonphase Protocol does not guarantee governance outcomes or participant influence beyond defined mechanisms.
 
 ---
 
-Document Version: 2.1
-- Last Updated: November 2025
+## 11. Roadmap & Development Milestones
+
+The Moonphase Protocol roadmap outlines progressive development stages designed to deliver functionality, decentralization, and ecosystem maturity in a controlled and accountable manner. Milestones are framed around capability readiness, not market timing.
+
+All roadmap phases are subject to governance review, technical feasibility, and security validation.
+
+### 11.1 Phase I — Foundation & Protocol Initialization
+
+This phase establishes the core protocol infrastructure and economic framework.
+
+Key milestones include:
+
+- deployment of core smart contracts on Solana,
+
+- implementation of the fixed-supply token model,
+
+- initialization of staking and participation mechanisms,
+
+- activation of Lunar Economics timing framework.
+
+This phase focuses on correctness, security, and baseline network stability.
+
+### 11.2 Phase II — Validator Expansion & Participation Growth
+
+Phase II emphasizes network participation and operational robustness.
+
+Key milestones include:
+
+- onboarding of additional validators,
+
+- refinement of PoCS contribution metrics,
+
+- optimization of reward calculation mechanisms,
+
+- performance monitoring and feedback loops.
+
+The goal is to achieve sustainable validator diversity without compromising security.
+
+### 11.3 Phase III — Governance Activation & MoonDAO Maturation
+
+This phase transitions governance authority toward broader community participation.
+
+Key milestones include:
+
+- activation of full on-chain governance,
+
+- treasury and ecosystem fund governance through MoonDAO,
+
+- governance parameter refinement based on real-world participation,
+
+- reduction of initial coordination roles where applicable.
+
+Governance evolution remains constrained by protocol invariants.
+
+### 11.4 Phase IV — Ecosystem Development & Integrations
+
+Phase IV focuses on ecosystem growth and protocol utility.
+
+Key milestones include:
+
+- integration with external tools and infrastructure,
+
+- developer tooling and documentation expansion,
+
+- exploration of cross-chain compatibility extensions,
+
+- ecosystem partnership development.
+
+All integrations are subject to security review and governance approval.
+
+### 11.5 Phase V — Long-Term Sustainability & Protocol Hardening
+
+The final phase emphasizes resilience and longevity.
+
+Key milestones include:
+
+- long-term emission and incentive monitoring,
+
+- protocol hardening against emerging attack vectors,
+
+- governance process optimization,
+
+- continuous audit and assurance cycles.
+
+This phase represents an ongoing commitment rather than a terminal endpoint.
+
+---
+
+## 12. Use Cases & Ecosystem Integration
+
+Moonphase Protocol is designed as a foundational economic and participation layer, enabling a range of use cases that benefit from disciplined incentives, predictable emission behavior, and governance-constrained evolution.
+
+Use cases emphasize infrastructure utility and ecosystem alignment, not speculative demand generation.
+
+### 12.1 Validator & Infrastructure Participation
+
+The primary use case of MPCT is participation in network security and operations.
+
+Key functions include:
+
+- staking for validator eligibility,
+
+- participation under the Proof-of-Contribution and Stake (PoCS) framework,
+
+- reward alignment with sustained network performance.
+
+This use case directly supports protocol integrity and decentralization.
+
+### 12.2 Long-Term Participation & Incentive Alignment
+
+MPCT enables long-duration participation models where incentives are realized progressively over time.
+
+Use cases include:
+
+- cycle-based staking aligned with Lunar Economics,
+
+- participation-weighted reward accumulation,
+
+- gradual unlocking of governance and liquidity privileges.
+
+This model discourages short-term extraction and supports economic sustainability.
+
+### 12.3 Governance & Protocol Stewardship
+
+MPCT holders in advanced token states may participate in MoonDAO governance.
+
+Governance-related use cases include:
+
+- proposing and voting on protocol parameters,
+
+- managing treasury and ecosystem fund allocations,
+
+- coordinating ecosystem development initiatives.
+
+Governance participation is subject to defined constraints and eligibility requirements.
+
+### 12.4 Ecosystem Integration & Protocol Extensions
+
+Moonphase Protocol is designed to integrate with external tools and ecosystems without compromising core invariants.
+
+Potential integrations include:
+
+- analytics and monitoring platforms,
+
+- developer tooling and SDKs,
+
+- infrastructure services supporting validators and contributors.
+
+All integrations must comply with security, governance, and emission neutrality principles.
+
+### 12.5 Future Use Case Expansion
+
+Additional use cases may emerge as the protocol evolves.
+
+Future expansions are evaluated based on:
+
+- alignment with Lunar Economics,
+
+- impact on emission and supply constraints,
+
+- security and governance implications.
+
+No use case may override core protocol invariants or introduce uncontrolled economic risk.
+
+---
+
+## 13. Conclusion & Long-Term Vision
+
+Moonphase Protocol is designed as a long-horizon blockchain economy, built to endure beyond short-term market cycles and speculative trends. By enforcing fixed supply constraints, contribution-weighted participation, and governance-constrained evolution, the protocol prioritizes resilience over acceleration.
+
+Rather than competing on yield or speed of growth, Moonphase Protocol focuses on economic discipline, behavioral alignment, and protocol longevity.
+
+### 13.1 Protocol as an Economic System
+
+Moonphase Protocol functions as a self-contained economic system governed by:
+
+- deterministic rules,
+
+- predictable incentive timing,
+
+- and immutable supply constraints.
+
+Through Lunar Economics and Proof-of-Contribution and Stake (PoCS), the protocol aligns individual participation with collective network health across multiple cycles.
+
+### 13.2 Long-Term Decentralization & Governance Maturity
+
+Decentralization within Moonphase Protocol is progressive by design.
+
+Over time:
+
+- governance authority expands to long-term participants,
+
+- initial coordination roles are reduced,
+
+- decision-making becomes increasingly distributed and accountable.
+
+This approach ensures that decentralization is achieved through stability, not disruption.
+
+### 13.3 Sustainability Beyond Market Cycles
+
+Moonphase Protocol is structured to remain functional and economically coherent regardless of market conditions.
+
+By avoiding fixed yield promises, excessive emissions, and centralized control, the protocol maintains flexibility without sacrificing integrity.
+
+Sustainability is treated as a design outcome, not a narrative claim.
+
+### 13.4 Vision for Ecosystem Evolution
+
+The long-term vision of Moonphase Protocol is to serve as a reliable participation and incentive layer for decentralized infrastructure.
+
+Future evolution is guided by:
+
+- governance-led adaptation,
+
+- security-first development,
+
+- adherence to core economic invariants.
+
+Moonphase Protocol does not aim to dominate the ecosystem, but to remain relevant, reliable, and aligned over time.
+
+---
+
+## 14. References & Appendices
+
+This section provides contextual references and supplementary materials that support the conceptual, technical, and economic foundations of Moonphase Protocol. References are included for informational purposes and do not constitute endorsements or dependencies unless explicitly stated.
+
+### 14.1 Conceptual References
+
+The following concepts inform the design philosophy of Moonphase Protocol:
+
+- Decentralized consensus and incentive alignment in blockchain systems
+
+- Fixed-supply monetary models and long-term emission frameworks
+
+- Contribution-based participation models
+
+- Time-based incentive coordination mechanisms
+
+These references serve as conceptual foundations rather than implementation blueprints.
+
+### 14.2 Technical References
+
+Technical considerations within Moonphase Protocol are informed by:
+
+- Solana blockchain architecture and documentation
+
+- Smart contract design best practices
+
+- Non-custodial staking models
+
+- Modular and upgrade-constrained protocol architectures
+
+Specific implementation details are maintained within open-source repositories and technical documentation.
+
+### 14.3 Economic & Governance References
+
+Economic and governance frameworks draw from:
+
+- Long-term token distribution models
+
+- On-chain governance design patterns
+
+- Treasury and ecosystem fund governance structures
+
+- Risk-aware economic guardrails
+
+These references support governance decisions while preserving protocol invariants.
+
+### 14.4 Appendices
+
+Appendices may include, but are not limited to:
+
+- glossary of protocol terminology,
+
+- parameter definitions and constraints,
+
+- governance process diagrams,
+
+- historical change logs and version notes.
+
+Appendices are intended to provide clarity without altering core protocol behavior.
+
+### 14.5 Documentation & Source Repositories
+
+Official documentation, source code, and governance records are maintained through publicly accessible repositories and channels.
+
+All protocol changes, proposals, and audits are documented transparently to support ongoing review and accountability.
+
+---
+
+Document Version: 2.2
+- Last Updated: February 2026
 - Contact: @moonphase_xyz
 - Repository: github.com/moonphase-xyz/moonphase-protocol
 
