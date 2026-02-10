@@ -1,121 +1,148 @@
 # 🌙 Moonphase Protocol
 
-**A Fixed-Supply Blockchain Protocol for Long-Term Participation and Economic Discipline**
+**A Lunar Cycle–Aligned Blockchain Economic Framework**
 
 ![Version](https://img.shields.io/badge/version-2.2-blue)
 ![Whitepaper](https://img.shields.io/badge/whitepaper-v2.2-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Solana](https://img.shields.io/badge/network-Solana-4A154B?style=flat&logo=solana&logoColor=white)
-![Status](https://img.shields.io/badge/status-active-brightgreen)
-
-![Lunar Economics](https://img.shields.io/badge/lunar-economics-operational-purple)
-![PoCS](https://img.shields.io/badge/participation-PoCS-orange)
-![Fixed Supply](https://img.shields.io/badge/supply-fixed-critical)
+![Status](https://img.shields.io/badge/status-design--finalized-brightgreen)
+![GitHub Stars](https://img.shields.io/github/stars/moonphase-xyz/moonphase-protocol?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/moonphase-xyz/moonphase-protocol)
 
 ---
 
-## Overview
+## 📘 Overview
 
-Moonphase Protocol is a **fixed-supply blockchain ecosystem** designed for long-term sustainability through disciplined incentives, contribution-weighted participation, and governance-constrained evolution.
+Moonphase Protocol is a blockchain protocol design framework that aligns economic participation with **cyclical temporal mechanics**, inspired by lunar phases.
 
-Built on Solana, the protocol introduces **Proof-of-Contribution and Stake (PoCS)** and **Lunar Economics**—a deterministic timing framework that coordinates incentive distribution without inflating token supply.
+The protocol introduces **Lunar Economics**, an operational incentive model where rewards, participation intensity, and contribution weight are modulated by deterministic cycle states rather than static emission assumptions.
 
-Moonphase Protocol does not promise yield, price appreciation, or short-term returns.  
-It is designed to **endure across market cycles**, not optimize for speculation.
-
----
-
-## Core Design Principles
-
-- **Fixed Supply Integrity**  
-  The total supply of MPCT is permanently capped at **2.1 billion tokens**.
-
-- **Contribution Over Capital**  
-  Rewards and influence scale with sustained participation and contribution, not token ownership alone.
-
-- **Lunar Economics**  
-  Cycle-based incentive timing that redistributes rewards over time without increasing emissions.
-
-- **Governance-Constrained Evolution**  
-  Protocol parameters may evolve only within predefined economic and security guardrails.
+Moonphase Protocol does **not** promise yields, fixed APRs, or price outcomes.  
+All economic behavior is defined by transparent rules, contribution metrics, and governance constraints.
 
 ---
 
-## Key Protocol Components
+## 🧠 Core Concepts
 
-- **Proof-of-Contribution and Stake (PoCS)**  
-  A participation framework combining staking with measurable contribution and performance.
+- 🌗 **Lunar Economics**  
+  Cycle-based incentive modulation derived from deterministic phase states.
 
-- **Three-State Token Model**  
-  Progressive token states governing liquidity, reward eligibility, and governance access.
+- ⚙️ **Proof-of-Contribution and Stake (PoCS)**  
+  A reward model where staking weight is conditional on measurable contribution.
 
-- **MoonDAO Governance**  
-  On-chain governance designed to resist capture and enforce protocol invariants.
+- 🔐 **Three-State Token Model**  
+  Locked → Restricted → Transferable state progression enforced by protocol rules.
+
+- 🏛️ **MoonDAO Governance**  
+  Multi-layer governance architecture with capture resistance and constrained authority.
+
+- 🛡️ **Security-by-Design**  
+  Non-custodial staking, slashing conditions, audit-first smart contract lifecycle.
 
 ---
 
-## Token Overview
+## 📊 Token Overview
 
-- **Token Symbol:** MPCT  
+- **Token Name:** Moonphase Token  
+- **Symbol:** MPCT  
 - **Total Supply:** 2,100,000,000 (Fixed)  
 - **Network:** Solana  
-- **Standard:** SPL  
+- **Standard:** SPL Token  
 
-MPCT does not represent equity, dividends, or guaranteed returns.
-
----
-
-## Security & Participation
-
-- Non-custodial staking by design  
-- Validator accountability through economic security mechanisms  
-- Modular, auditable smart contract architecture  
-
-Participation involves technical, economic, and governance risks.  
-There are **no guaranteed outcomes**.
+> No minting expansion, rebasing, or discretionary supply modification mechanisms exist.
 
 ---
 
-## Documentation
+## 🧩 Protocol Status
 
-- 📄 **Whitepaper v2.2**  
-  [Moonphase Protocol Whitepaper v2.2](./whitepaper/Moonphase_Whitepaper_v2.2.md)
+### Current Phase
+**Specification Finalized (v2.2)**
 
+This repository currently represents:
+- Finalized protocol specification
+- Economic and governance design reference
+- Pre-implementation documentation baseline
 
-- 🧭 **Governance**  
-  MoonDAO (on-chain)
-
-
-- 📑 **Changelog**  
-  [Changelog](./CHANGELOG.md)
-
-
-- 🧪 **Source Code & Contracts**  
-  See repository directories
+No production smart contracts are deployed as of this release.
 
 ---
 
-## Contributing
+## 📚 Documentation
+
+### 📖 Whitepaper
+- 👉 **[Moonphase Protocol Whitepaper v2.2](./whitepaper/Moonphase_Whitepaper_v2.2.md)**  
+  Canonical protocol reference
+
+- [Moonphase Protocol Whitepaper v2.1](./whitepaper/Moonphase_Whitepaper_v2.1.md)  
+  Deprecated (historical reference)
+
+### 📝 Changelog
+- [CHANGELOG.md](./CHANGELOG.md)
+
+### 🔬 Research & Specifications
+- Tokenomics Modeling *(planned)*
+- Lunar Economics Research *(planned)*
+- Smart Contract Specifications *(planned)*
+
+---
+
+## 🏗️ Roadmap Philosophy
+
+Moonphase Protocol follows a **milestone-based roadmap**, not date-driven commitments.
+
+Planned phases include:
+1. Specification Finalization ✅
+2. Smart Contract Architecture Design
+3. Testnet Deployment
+4. Security Audits
+5. Governance Activation
+6. Ecosystem Integration
+
+Each phase is gated by completion criteria and governance review.
+
+---
+
+## 🛡️ Security & Risk Disclosure
+
+- Participation is non-custodial by design
+- Rewards are variable and contribution-dependent
+- Governance authority is constrained and auditable
+- Economic behavior is subject to protocol rules, not discretionary promises
+
+Participation implies acceptance of technical, economic, and governance risks as outlined in the whitepaper.
+
+---
+
+## 🤝 Contributing
 
 Community contributions are welcome.
 
-Please review the contribution guidelines before submitting pull requests:
-- [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md)
----
+Before submitting pull requests:
+- Review the protocol philosophy
+- Follow contribution guidelines
+- Avoid speculative, promotional, or price-oriented language
 
-## Disclaimer
-
-Moonphase Protocol is an experimental decentralized system.
-
-Nothing in this repository constitutes financial advice, an investment offer, or a guarantee of profit.  
-Participants are responsible for understanding the protocol and complying with applicable regulations.
+See: [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License.  
-See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details.
 
-_Last updated: Whitepaper v2.2_
+---
 
+## 🔗 External Links
+
+- 🌐 Website: https://moonphase.xyz *(upcoming)*
+- 💬 Community: https://t.me/moonphase_protocol
+- 🐦 Updates: https://twitter.com/moonphase_xyz
+
+---
+
+*Moonphase Protocol is a research-driven protocol design.  
+Nothing in this repository constitutes financial advice or investment solicitation.*
+
+*Last Updated: February 2026 — Whitepaper v2.2*
