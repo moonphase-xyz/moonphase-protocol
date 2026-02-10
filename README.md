@@ -1,122 +1,116 @@
 # 🌙 Moonphase Protocol
 
-**The First Lunar Cycle-Inspired Blockchain Ecosystem**
+**A Fixed-Supply Blockchain Protocol for Long-Term Participation and Economic Discipline**
 
-![Version](https://img.shields.io/badge/version-2.1-blue)
-![Whitepaper](https://img.shields.io/badge/whitepaper-latest-green)
+![Version](https://img.shields.io/badge/version-2.2-blue)
+![Whitepaper](https://img.shields.io/badge/whitepaper-v2.2-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Solana](https://img.shields.io/badge/Solana-4A154B?style=flat&logo=solana&logoColor=white)
+![Solana](https://img.shields.io/badge/network-Solana-4A154B?style=flat&logo=solana&logoColor=white)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![GitHub Stars](https://img.shields.io/github/stars/moonphase-xyz/moonphase-protocol?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/moonphase-xyz/moonphase-protocol)
 
-![Lunar Economics](https://img.shields.io/badge/lunar-economics-purple)
-![PoCS Consensus](https://img.shields.io/badge/consensus-PoCS-orange)
-![Multi Chain](https://img.shields.io/badge/multi-chain-ready-yellow)
-
-## 🚀 Overview
-
-Moonphase Protocol introduces revolutionary blockchain ecosystem where celestial mechanics meet decentralized finance. We pioneer **Proof-of-Contribution and Stake (PoCS)** - a consensus mechanism that harmonizes capital commitment with active participation.
-
-## ✨ Core Features
-
-- 🌙 **Lunar Economics** - Dynamic rewards mirroring moon phases
-- ⚡ **PoCS Consensus** - Proof-of-Contribution & Stake  
-- 🔄 **Three-State Token** - Locked → Restricted → Transferable
-- 🌉 **Multi-Chain Ready** - Solana first, expansion ready
-- 🛡️ **Advanced Security** - Slashing, MEV protection, Sybil resistance
-
-## 📊 Tokenomics
-
-- **Token**: MPCT
-- **Supply**: 2,100,000,000
-- **Network**: Solana
-- **Standard**: SPL Token
-- **Initial Price**: $0.0075
-
-## 🛠️ Development Status
-
-### ✅ Currently Live:
-- Project Documentation & Whitepaper
-- Frontend Interface & Dashboard
-- Community Building & Growth
-- GitHub Repository & Transparency
-
-### 🔄 Coming Soon:
-- Smart Contracts (Post-Token Launch)
-- Staking Mechanism & Rewards
-- Token Deployment & Liquidity
-- Advanced Features Rollout
-
-## 📚 Documentation & Research
-
-### Whitepapers
-- [Moonphase Protocol Whitepaper v2.1](/whitepaper/Moonphase_Whitepaper_v2.1.md)
-
-### Economic Research  
-- [Tokenomics Modeling & Analysis](/research/tokenomics-modeling.md) - **NEW** 🆕
-- [Lunar Economics Research](/research/lunar-economics.md) - Coming Soon
-- [Market Analysis](/research/market-analysis.md) - Coming Soon
-
-### Technical Specifications
-- [Smart Contract Specs](/technical/smart-contract-specs.md) - Coming Soon
-- [API Documentation](/technical/api-documentation.md) - Coming Soon
-
-### Research
-- [Lunar Economics Research](/research/lunar-economics-research.md) - Coming soon
-- [Tokenomics Modeling](/research/tokenomics-modeling.md) - Coming soon
-
-## 🎯 Project Status
-
-### **Current Phase: Active Development** 🚀
-- **Smart Contracts:** In development (Rust/Anchor)
-- **Frontend Dashboard:** UI/UX design phase
-- **Community:** 1,000+ members and growing
-- **Next Milestone:** Presale preparation
-
-### **📅 30-Day Development Roadmap**
-| Week | Focus | Status |
-|------|-------|--------|
-| **Week 1-2** | Core protocol specification | ✅ Completed |
-| **Week 3-4** | Smart contract development | 🔄 In Progress |
-| **Week 5-6** | Testnet deployment | 📅 Planned |
-| **Week 7-8** | Community presale | 📅 Planned |
-
-### **📊 Live Community Metrics**
-- 🌍 **Telegram Channel :** Subcribe 1K
-- 🐦 **Twitter Followers:** Growing daily
-- ⭐ **GitHub Stars:** [Current Count]
-- 👁️ **GitHub Watchers:** [Current Count]
-
-### **🔗 Quick Links**
-- [🌐 Website](https://moonphase.xyz) - (Coming Soon)
-- [📖 Whitepaper](docs/WHITEPAPER.md) - Technical documentation
-- [💬 Telegram Community](https://t.me/moonphase_protocol) - Join discussion
-- [🐦 Twitter Updates](https://twitter.com/moonphase_xyz) - Latest news
-- [🎨 Brand Assets](assets/branding/) - Logos & graphics
-
-### **❓ Frequently Asked Questions**
-**Q: When is the presale?**  
-A: Whitelist registration opens in 7-10 days. Join Telegram for updates!
-
-**Q: What's the minimum investment?**  
-A: $100 (100,000 MPCT at presale price)
-
-**Q: Why Solana?**  
-A: Speed (65,000 TPS), low fees ($0.0001), and growing ecosystem.
+![Lunar Economics](https://img.shields.io/badge/lunar-economics-operational-purple)
+![PoCS](https://img.shields.io/badge/participation-PoCS-orange)
+![Fixed Supply](https://img.shields.io/badge/supply-fixed-critical)
 
 ---
 
-### **🤝 How to Contribute**
-We welcome community contributions! Please read our [Contribution Guidelines](.github/CONTRIBUTING.md) before submitting PRs.
+## Overview
 
-## 🤝 Contributing
-We welcome community contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) first.
+Moonphase Protocol is a **fixed-supply blockchain ecosystem** designed for long-term sustainability through disciplined incentives, contribution-weighted participation, and governance-constrained evolution.
 
-## 📄 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Built on Solana, the protocol introduces **Proof-of-Contribution and Stake (PoCS)** and **Lunar Economics**—a deterministic timing framework that coordinates incentive distribution without inflating token supply.
 
-*Last Updated: (December 2025)* | *Repository Version: 1.1*
+Moonphase Protocol does not promise yield, price appreciation, or short-term returns.  
+It is designed to **endure across market cycles**, not optimize for speculation.
+
 ---
 
-*Built with 🌙 for the celestial community.*
+## Core Design Principles
+
+- **Fixed Supply Integrity**  
+  The total supply of MPCT is permanently capped at **2.1 billion tokens**.
+
+- **Contribution Over Capital**  
+  Rewards and influence scale with sustained participation and contribution, not token ownership alone.
+
+- **Lunar Economics**  
+  Cycle-based incentive timing that redistributes rewards over time without increasing emissions.
+
+- **Governance-Constrained Evolution**  
+  Protocol parameters may evolve only within predefined economic and security guardrails.
+
+---
+
+## Key Protocol Components
+
+- **Proof-of-Contribution and Stake (PoCS)**  
+  A participation framework combining staking with measurable contribution and performance.
+
+- **Three-State Token Model**  
+  Progressive token states governing liquidity, reward eligibility, and governance access.
+
+- **MoonDAO Governance**  
+  On-chain governance designed to resist capture and enforce protocol invariants.
+
+---
+
+## Token Overview
+
+- **Token Symbol:** MPCT  
+- **Total Supply:** 2,100,000,000 (Fixed)  
+- **Network:** Solana  
+- **Standard:** SPL  
+
+MPCT does not represent equity, dividends, or guaranteed returns.
+
+---
+
+## Security & Participation
+
+- Non-custodial staking by design  
+- Validator accountability through economic security mechanisms  
+- Modular, auditable smart contract architecture  
+
+Participation involves technical, economic, and governance risks.  
+There are **no guaranteed outcomes**.
+
+---
+
+## Documentation
+
+- 📄 **Whitepaper v2.2**  
+  `/whitepaper/Moonphase_Whitepaper_v2.2.md`
+
+- 🧭 **Governance**  
+  MoonDAO (on-chain)
+
+- 🧪 **Source Code & Contracts**  
+  See repository directories
+
+---
+
+## Contributing
+
+Community contributions are welcome.
+
+Please review the contribution guidelines before submitting pull requests:
+- `.github/CONTRIBUTING.md`
+
+---
+
+## Disclaimer
+
+Moonphase Protocol is an experimental decentralized system.
+
+Nothing in this repository constitutes financial advice, an investment offer, or a guarantee of profit.  
+Participants are responsible for understanding the protocol and complying with applicable regulations.
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
+
+_Last updated: Whitepaper v2.2_
+
