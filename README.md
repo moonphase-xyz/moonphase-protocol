@@ -95,7 +95,7 @@ There are **no guaranteed outcomes**.
 Community contributions are welcome.
 
 Please review the contribution guidelines before submitting pull requests:
-- [.github/CONTRIBUTING.md](.github/CONTRIBUTING.md)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
 ---
 
 ## Disclaimer
