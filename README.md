@@ -79,7 +79,7 @@ There are **no guaranteed outcomes**.
 ## Documentation
 
 - 📄 **Whitepaper v2.2**  
-  [whitepaper/Moonphase_Whitepaper_v2.2md](whitepaper/Moonphase_Whitepaper_v2.2.md)
+  [Moonphase_Whitepaper_v2.2md](Moonphase_Whitepaper_v2.2.md)
 
 - 🧭 **Governance**  
   MoonDAO (on-chain)
