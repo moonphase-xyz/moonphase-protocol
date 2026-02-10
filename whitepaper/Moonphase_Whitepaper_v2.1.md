@@ -73,8 +73,8 @@ With a permanently capped total supply of 2.1 billion MPCT, Moonphase Protocol i
 
 The protocol is non-custodial by design and constrained by transparent, on-chain governance, ensuring that no centralized entity can arbitrarily control user funds or core economic parameters.
 
-*Moonphase Protocol is not built to chase market momentum.
-It is built to outlast it.*
+> Moonphase Protocol is not built to chase market momentum.
+It is built to outlast it.
 
 ---
 
@@ -1110,7 +1110,3 @@ Document Version: 2.2
 ---
 
 > © 2025 Moonphase Protocol. All rights reserved.
-
-```
-
----
